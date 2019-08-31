@@ -3,8 +3,10 @@ Empresas por Horário:
 - horário de mínimo de transações: 3 e 4h. implantações críticas de sistemas podem ocorrer nesse horário para não afetar ambiente produtivo
 - horário de pico de transações: entre 16 a 18h
 - não há medição de horário para CNAE "3132336536623434373931646265346333343863663330323262353339366331" - Classe 1 - Defeito ou algo legal?
-- classificação de PDV por horário pico-mínimo de transações (clusterização Kmeans e classificação KNN)
+- classificação de PDV por horário pico-mínimo de transações (clusterização Kmeans e classificação KNN com 96% acurácia)
 - diferentes tipos de cobrança e/ou promoções para as diferentes classes, por exemplo, classe 4 que tem uma venda linear durante o dia.
 
-
-
+Empresas por data no mês:
+- Classe 3 com o mesmo CNAE "3130346238346439613630366662323861653139623466366639363939393662" com pico nos dias 24 e 25 
+- classificação de PDV por dia no mês pico-mínimo de transações (clusterização Kmeans e classificação KNN com 91% acurácia)
+- diferentes tipos de cobrança e/ou promoções para as diferentes classes, por exemplo, classe 3 que tem uma pico nos dias 24 e 25.
